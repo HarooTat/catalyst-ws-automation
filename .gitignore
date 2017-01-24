@@ -1,12 +1,40 @@
+# Maven build directory
+target/
+bin/
+
+# Binary files
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Eclipse generated files
+.settings/
+target-eclipse/
+target
+.project
+.classpath
+
+# Logs and temporary files
+*.log
+*.err
+*.log.*
+*.tmp
+
+# VM crash log and heap dump
 hs_err_pid*
+*.hprof
+
+# eCommerce specific
+.smt
+full_JCP_Config.xml
+
+# Project specific
+src/test/groovy/scripts
+results/
+GitDiffFile.txt
+
+/target
+.idea
+*.iml
+/out/
